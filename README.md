@@ -4,7 +4,7 @@
 
 这个项目提供了一个的安装脚本，用于在 Ubuntu 系统上安装和配置 [FRRouting](https://frrouting.org/)（`frr`）。该脚本将自动添加 FRRouting 仓库、安装所需的依赖包、启用 FRRouting 服务，以便在命令行工具中方便地进行路由配置。
 
-该版本的脚本已被编译为二进制文件，方便部署。
+该版本的脚本已针对Ubuntu系统进行优化，方便部署。
 
 ## 特性
 
@@ -14,8 +14,8 @@
 
 ## 先决条件
 
-- 该脚本已针对 Ubuntu 系统进行优化。
-- 需要在目标系统上执行二进制文件。
+- 确认部署的主机可以连网。
+- 需要在目标系统上执行一键安装脚本。
 
 ## 安装和使用
 
@@ -26,6 +26,7 @@
 ```bash
 #下载之前，请确认服务器已经安装git
 git clone https://github.com/xxy5503/FRR-Server-Install.git
+cd FRR-Server-Install
 ```
 
 ```bash
