@@ -1,8 +1,8 @@
-# FRRouting Installation and Setup
+# Ubuntu系统FRRouting安装配置
 
 ## 介绍
 
-这个项目提供了一个的安装脚本，用于在 Ubuntu 系统上安装和配置 [FRRouting](https://frrouting.org/)（`frr`）。该脚本将自动添加 FRRouting 仓库、安装所需的依赖包、启用 FRRouting 服务，以便在命令行工具中方便地进行路由配置。
+这个项目提供了一个安装脚本，用于在 Ubuntu 系统上安装和配置 [FRRouting](https://frrouting.org/)（`frr`）。该脚本将自动安装 FRRouting 所需的依赖包、启用 FRRouting 服务，以便在命令行工具中方便地进行路由配置。
 
 该版本的脚本已针对Ubuntu系统进行优化，方便部署。
 
@@ -10,7 +10,7 @@
 
 - 自动安装 FRRouting 和相关依赖。
 - 配置并启用所有 FRRouting 服务。
-- Linux shell中通过 `enable`命令进入 命令行模式。
+- Linux shell中通过 `enable`命令进入命令行模式。
 
 ## 先决条件
 
@@ -87,7 +87,7 @@ exit
 ```bash
 # 卸载 FRRouting 包
 sudo apt remove --purge frr 
-
+```
 
 ## 许可
 
