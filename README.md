@@ -42,9 +42,8 @@ chmod +x install-frr
 sudo ./install-frr
 ```
 
-- 请确保你使用 `sudo` 运行该二进制文件，因为它需要管理员权限来安装软件和修改系统配置。
+- 请确保你使用 `sudo` 运行该脚本文件，因为它需要管理员权限来安装软件和修改系统配置。
 - 执行时，脚本将自动：
-  - 添加 FRRouting 仓库。
   - 安装 FRRouting 和相关依赖。
   - 修改配置文件，启用所有 FRRouting 服务。
 
